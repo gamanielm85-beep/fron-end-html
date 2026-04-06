@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(122, 165, 42);
+    margin: 0px;
+    font-family: "Noto Sans Meroitic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+main{
+    padding: 0px 100px;
+}
+header{
+    background-color: black;
+
+}
+nav li:hover{
+    background-color: grey;
+}
+nav li{
+    padding: 20px;
+}
+nav ul{
+    display: flex;
+    gap:28x;
+    list-style-type: none;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(255, 136, 0);
+    font-size: 28px;
+}

@@ -4,11 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pagina_de_ejemplo_html</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Meroitic&display=swap" rel="stylesheet">
     <!-- h1 espara hacer un titulo el mas inportante  
           existe hasta h6-->
 </head>
 <body>
-    <h1>pagina_de_ejemplo_html</h1>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="s1">incio</a></li>
+                <li><a href="ld">lsita ordenada</a></li>
+                <li><a href="lo">lista desordenada</a></li>
+                <li><a href="la">lista automatica</a></li>
+            </ul>
+        </nav>
+    </header>
+     <main>
+        <section id="s1">
+            <h1>pagina_de_ejemplo_html</h1>
     <P>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga aliquam quidem nulla libero harum ea cumque, explicabo sit maiores voluptatibus ex? Cum unde earum maiores incidunt! Accusantium sint eius aspernatur!
     </P>
@@ -26,9 +42,9 @@
     Dolorem ut distinctio non aperiam saepe cum molestias ducimus ipsam hic provident dolores consequuntur rerum neque nostrum ratione iste aspernatur magnam exercitationem, culpa magni! Vero explicabo necessitatibus at neque repellat.
     Accusantium sequi optio totam. Corporis velit soluta quos alias eos id veritatis molestias vel quod animi, incidunt, nobis harum ducimus obcaecati cumque ab nam? Dolor quos itaque sit dignissimos inventore.
 </P>
-<h2>
-    LISTA DESORDENADA
-</h2>
+        </section>
+        <section >
+<h2 id="ld">LISTA DESORDENADA</h2 >
 <!-- <ul> crear etiqueta dentro de otra ul para crear esta lista desordenada -->
     <li>item1</li>
     <li>item2</li>
@@ -36,7 +52,7 @@
     <li>item4</li>
 </ul>
 <!-- h2+ol>li*5 lista ordenada ademas que el + sirve para crear itequetas al mismo nivel una debajo de la otra  ol ordenada-->
-<h2></h2>
+<h2 id="lo">lista ordenada</h2>
 <ol>
     <li>item1</li>
     <li>item2</li>
@@ -45,7 +61,7 @@
     <li>item5</li>
 </ol>
 <!-- h2{nombre}+ol o ul >li*10 {nombre $ para numerar} lista automatica-->
-<h2>lista automatica</h2>
+<h2 id="la">lista automatica</h2>
 <ol>
     <li>elemento 1/10</li>
     <li>elemento 2/10</li>
@@ -74,6 +90,11 @@
     <li><a href="productos/ordinaries.html">ordinARIES</a></li>
     <li><a href="productos/tilin.html">ver tilin</a></li>
 </ul>
+
+        </section>
+     </main>
+    
+
 
 </body>
 </html>
