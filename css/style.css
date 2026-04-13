@@ -28,3 +28,21 @@ nav a{
     color: rgb(255, 136, 0);
     font-size: 28px;
 }
+#s1{
+    background-image: url('../imagenes/Sonic-Logo.png');
+    background-size: 80px;
+    background-position:top left, top right;
+    background-repeat: no-repeat;
+    padding: 75px;
+    box-shadow:3px 3px 10px darkred , 3px 3px 10px darkred ;
+;
+
+}
+#ld{
+    background-image: url('../imagenes/Sonic-Logo.png');
+    background-size: 80px;
+    background-position:top left, top right;
+    background-repeat: no-repeat;
+    padding: 75px;
+    box-shadow:3px 3px 10px darkred , 3px 3px 10px darkred ;
+}
